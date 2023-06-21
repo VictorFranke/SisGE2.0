@@ -1,0 +1,73 @@
+body{
+    height: 100vh;
+}
+header {
+    background-color: white;
+    text-align: right;
+    height: 40px;
+ }
+
+.menu{
+    background: white;
+    height: 100vh;
+    width: 35%;
+    text-align: left;
+}
+
+.home, .exit{
+    position: fixed;
+    margin-top: 0px;
+    width: 55px;
+    height: 40px;
+}.home{margin-left: 35vw;}.exit{margin-left: 96.5vw;}
+.logo{
+    position: fixed;
+    margin-left: 10vw;
+    margin-top: 50px;
+    background: black;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+
+.options{
+    position: fixed;
+    margin-left: 2vw;
+    margin-top: 25vw;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+
+.main{
+    margin-left: 37.5%;
+    margin-top: -92vh;
+    width: 60%;
+    height: 90vh;
+    background: rgba(132, 39, 39);
+    border-radius: 10px;
+}
+.border{
+    position: absolute;
+    width: 59.25%;
+    margin-left: 0.25%;
+    margin-top: 2px;
+    height: 89vh;
+    background: rgba(255, 255, 255, 0);
+    border: solid 2px white;
+    border-radius: 10px;
+
+}
+
+button{
+    background: rgba(132, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    margin: 3%;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}

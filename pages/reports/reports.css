@@ -1,0 +1,134 @@
+body{
+    height: 100vh;
+}
+header {
+    background-color: white;
+    text-align: right;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+ }
+
+header button {
+    margin: 1px;
+    width: auto;
+}
+
+.menu{
+    position: fixed;
+    background: rgba(255, 255, 255, 0.8);
+    height: 1800px;
+    width: 35%;
+    text-align: left;
+    z-index: 1;
+}
+
+
+.home, .exit{
+    position: fixed;
+    margin-top: 0px;
+    width: 55px;
+    height: 40px;
+    z-index: 3;
+}.home{margin-left: 35vw;}.exit{margin-left: 96.5vw;}
+.logo{
+    position: fixed;
+    margin-left: 10vw;
+    margin-top: 50px;
+    background: black;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+
+.options{
+    position: fixed;
+    margin-left: 2vw;
+    margin-top: 25vw;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+
+.main{
+    position: absolute;
+    margin-left: 37.5%;
+    margin-top: 50px;
+    width: 60%;
+    min-width: 600px;
+    height: 200vh;
+    background: rgba(132, 39, 39, 0.9);
+    border-radius: 10px;
+}
+.border{
+    position: absolute;
+    width: 99.5%;
+    min-width: 598px;
+    margin-left: 0.25%;
+    margin-top: 2px;
+    height: 99%;
+    background: rgba(255, 255, 255, 0);
+    border: solid 2px white;
+    border-radius: 10px;
+}
+ .year{
+    margin: 10px;
+}
+
+.select{
+    margin: 10px;
+}
+
+button{
+    background: rgba(132, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    margin: 3%;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+.text-range{
+    display: flex;
+    flex-direction: row;
+}
+.text-range input{
+    flex: 1;
+}
+
+.bimestre{
+    border: solid 2px white;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin: 5%;
+    width: 15vw;
+}
+.bimestre1{
+    margin:15px 0px 0px 0px;
+    background: white;
+}
+
+ol{
+    padding: 0;
+    list-style-type: none;
+}
+
+ol li {
+    cursor: pointer;
+    background: white;
+    padding: 8px 16px;
+    margin: 2px;
+    border-bottom: 1px solid black;
+}
+
+ol li:hover{
+    opacity: 0.8;
+}
+
+p{
+    margin: 4px 0;
+}

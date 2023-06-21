@@ -1,0 +1,155 @@
+body{
+    height: 100vh;
+}
+header {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: right;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+ }
+
+ .time{
+    margin-top: 0px;
+ }
+
+.menu{
+    position: fixed;
+    background: rgba(255, 255, 255, 0.8);
+    height: 1800px;
+    width: 35%;
+    text-align: left;
+    z-index: 1;
+}
+
+.home, .exit{
+    position: fixed;
+    margin-top: 0px;
+    width: 55px;
+    height: 40px;
+    z-index: 3;
+}.home{margin-left: 35vw;}.exit{margin-left: 96.5vw;}
+.logo{
+    position: fixed;
+    margin-left: 10vw;
+    margin-top: 50px;
+    background: black;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+
+.options{
+    position: fixed;
+    margin-left: 2vw;
+    margin-top: 25vw;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+.main{
+    position: absolute;
+    margin-left: 37.5%;
+    margin-top: 50px;
+    width: 60%;
+    min-width: 600px;
+    height: 3500px;
+    background: rgba(132, 39, 39, 0.9);
+    border-radius: 10px;
+}
+.border{
+    position: absolute;
+    width: 99%;
+    min-width: 598px;
+    margin-left: 0.25%;
+    margin-top: 2px;
+    height: 3494px;
+    background: rgba(255, 255, 255, 0);
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+button{
+    background: rgba(132, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    height: 5vh;
+    margin: 3%;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 0.8;
+}
+
+.text-range{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text-range input{
+    flex: 1;
+}
+
+.margin{
+    margin: 10px;
+}
+
+.problem{
+    margin: 5px;
+}
+
+.graficFund, .graficFundRed{
+    height: 40px;
+    width: 0%;
+}.graficFund{background-color: rgba(26, 255, 0, 0.5);}.graficFundRed{background-color: rgba(255, 0, 0, 0.5);}
+p{
+    margin-top: -40px;
+}
+.fixed, .resposta, .all{
+    text-align: center;
+    margin: 10px;
+    height: 40px;
+    background: white;
+}.fixed{width: 30%;}.resposta{color: black; font-size: medium;width: 50%;}.all{width: 98%; color: black;}
+
+.titleCenter{
+    color: white;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.select{
+    margin-left: 10px;
+    height: 40px;
+}
+
+.justify{
+    margin-left: 10px;
+    font-size: larger;
+    margin-top: 30px;
+    color: white;
+}
+
+.time-out{
+    text-align: center;
+    background: white;
+    position: fixed;
+    z-index: 2;
+    margin-left: 30vw;
+    margin-top: 80px;
+    width: 7.5vw;
+    font-size: small;
+}
+.time-in{
+    margin: 2px;
+    background-color:rgba(147, 0, 0, 0);
+    border: solid  2px rgb(132, 39, 39);
+}
+
+.save{
+    
+    border: solid  2px rgb(255, 255, 255);
+}
